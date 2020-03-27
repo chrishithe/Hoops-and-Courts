@@ -1,0 +1,42 @@
+/* CSS file for about us accordion (all accordion content) */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+#accordion{
+	background-color: transparent;
+	
+}
+
+#body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 650px;
+	margin: 0 auto;
+	padding: 15px 25px;
+}
+h1 { 
+	font-size: 150%;
+	margin-bottom: .5em;
+}
+
+ul {
+	padding-left: 45px;
+}
+li {
+	padding-bottom: .5em;
+	color: #ff7b25;
+}
+p {
+	padding-bottom: .5em;
+	color: #ff7b25;
+}
+/* Styles all 3 panels with id's */
+#first, #second, #third {
+	background: transparent;
+}
+/* Styles the title on page */
+.title1{
+	font-family: Palatino, URW Palladio L, serif;
+}

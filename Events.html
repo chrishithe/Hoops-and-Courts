@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <title>Registration</title>
+         <meta charset="UTF-8"> 
+
+        
+        <!--External Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="webWhole.css">
+    <link rel="stylesheet" type="text/css" href="events.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css" />
+    <script src="jquery-ui-1.12.1/external/jquery/jquery.js"></script> 
+    <script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script src="AAUPage.js"></script>
+          
+    </head>
+    
+     <body id="registration">
+         <!-- Creates the class the header & logo (image file) onto the page & changes the width & height -->
+         <div class="header">
+            <div class="logo">
+                <img src="ngu.jpg" alt="image" width="600" height="175" class="center"/>
+            </div>
+         </div>
+         <!-- Creates the navigation bar with all four pages and makes the nav bar active -->   
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About Us</a>
+            <a href="events.html">Sign Ups</a>
+            <a href="celebrities.html">Notable Vistitors</a>
+        </div>
+    <!-- Creates a main with id styling -->
+	<main id="events"> 
+		<h1>Registration</h1>
+        <!-- activates the response page with the form sheet -->
+		<form action="response.html" method="get"
+			name="reservation_form" id="reservation_form">
+			<fieldset>
+                <!-- Inputs information in the Form -->
+				<legend>Teams Information</legend>
+                <!-- text box field for team name -->
+				<label for="team_name">Team Name:</label>
+				<input type="text" name="team_name" id="team_name" placeholder="Team name" >
+				<span>*</span><br>
+                <!-- text box field for coach name -->
+				<label for="cname">Coach Name:</label>
+				<input type="text" name="cname" id="cname"  placeholder="Head Coach name">
+				<span>*</span><br>
+                <!-- text box field for phone number -->
+                <label for="phone">Phone:</label>
+				<input type="text" name="phone1" id="phone1" placeholder="xxx-xxx-xxxx">
+				<span>*</span><br>
+                <!-- creates dropbox for divisions -->
+				<label>Division:</label>
+				<select name="age" id="age">
+					<option value="1">14U</option>
+					<option value="2">15U</option>
+					<option value="3">16U</option>
+					<option value="4">17U</option>
+                    <option value="5">18U</option>   
+				</select><br>     	
+			</fieldset>
+			<fieldset>
+                <!-- Creates section for court selection -->
+				<legend>Tournament Location</legend>
+				<label>Tournament:</label>
+				<input type="radio" name="courts" id="bball1" class="left" >Courts R' Us&nbsp;&nbsp;&nbsp;	        	
+				<input type="radio" name="courts" id="bball2" class="left" >LA Courts&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="courts" id="bball3" class="left last">Carolina Courts<br>
+                <input type="radio" name="courts" id="bball4" class="left last">Sunshine Courts<br>
+				
+                <!-- Creates section for arrival and depart date -->
+                <label for="date_att">Arrival Date:</label>
+                <input type="text" name="date_att" id="date_att" required/>
+                <br>
+                <label for="date_leave">Depart Date:</label>
+                <input type="text" name="date_leave" id="date_leave" required/>
+				
+			</fieldset>		
+			<fieldset>
+				<legend>Coaches Information</legend>
+                <!-- text box field for first name -->
+				<label for="name">First:</label>
+				<input type="text" placeholder="First name" name="name" id="name">
+				<span>*</span><br>
+                <!-- text box field for last name -->
+                <label for="name">Last:</label>
+				<input type="text" placeholder="Last name" name="name1" id="name1">
+				<span>*</span><br>
+                <!-- text box field for email input -->
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email" placeholder="name@service.com">
+				<span>*</span><br>
+                <!-- text box field for phone -->
+				<label for="phone">Phone:</label>
+				<input type="text" name="phone" id="phone" placeholder="xxx-xxx-xxxx">
+				<span>*</span><br>
+			</fieldset>
+            <!-- submit button for form -->
+			<input type="submit" id="submit" value="Submit Request"><br>
+
+		</form>
+	</main>
+   
+</html>
+      

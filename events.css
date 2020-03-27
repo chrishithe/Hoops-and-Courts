@@ -1,0 +1,67 @@
+/* CSS file for Events Page */
+
+/* Styles the border/background of the form */
+#events {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff7b25;
+    background-color: transparent;
+    margin: 0 auto;
+    width: 700px;
+    border: 3px solid orange;
+    padding: 10px 20px;
+}
+/* Styles the fieldset */
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+/* Styles the titles */
+legend {
+    color: #ff7b25;
+    font-weight: bold;
+    font-size: 85%;
+    margin-bottom: .5em;
+}
+/*Styles the label */
+label {
+	float: left;
+    width: 100px;
+}
+/* Styles the input section */
+input, select {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: .5em;
+}
+/* Styles the input section */
+input {
+    width: 14em;	
+}
+/* Styles the input section */
+input.left {
+	width: 1em;
+	padding-left: 0;
+}
+/* Styles the input section */
+p {
+	margin-top: 0;
+	margin-bottom: .5em;
+}
+/* Styles the input section */
+input.last {
+	margin-bottom: 1em;
+}
+/* Styles the dropbox */
+#age {
+	width: 35px;
+}
+/*Styles the submit button */
+#submit {
+	margin-left: 0;
+	width: 10em;
+}
+/* Styles the required fields alerts */
+span {
+	color: red;
+}

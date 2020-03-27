@@ -1,0 +1,16 @@
+{"teammembers":[
+	{
+		"full_name": "Kyle Kuzma",
+		"first_name": "kyle",
+		"image": "kuz.jpg",
+		"title": "Professional Basketball Player for the New Orleans Pelicans",
+		"tag_line": "Power Forward, Scoring machine, Sharp Shooter"
+	},
+	{
+		"full_name": "Kelly Oubre",
+		"first_name": "kelly",
+		"image": "kelly.jpg",
+		"title": "Professional Basketball Player for the Washington Wizards",
+	    "tag_line": "Small Forward, Athletic Shot Maker"
+	}	
+]}
